@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+</head>
+
+<body>
+    <div class="header-section">
+        <h1>Name Your Brand</h1>
+        <p>Create a unique, brandable name that stands out!</p>
+    </div>
+    <div class="input-section">
+        <label for="keywords"></label>
+        <input type="text" id="keywords" placeholder="Enter 2-3 Keywords" />
+        <label for="industry"></label>
+        <select id="industry">
+            <option value="">Select an industry</option>
+            <option value="technology">Technology</option>
+            <option value="fashion">Fashion</option>
+            <option value="health">Health</option>
+            <option value="food">Food</option>
+            <option value="finance">Finance</option>
+        </select>
+        <button id="generateButton">Generate</button>
+        
+    </div>
+    
+    <div class="output-section">
+        <label for="generatedName" style="display: none;" class="output-label">Generated Name</label>
+        <input type="text" id="generatedName" readonly style="display: none;">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

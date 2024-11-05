@@ -1,0 +1,90 @@
+
+    
+@media screen and (max-width: 1024px) {
+
+    body{
+        /* overflow: hidden; */
+    }
+    .input-section {
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    input {
+        width: 25%;
+    }
+
+    button {
+        width: 25%;
+    }
+    .output-section{
+     width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+     p{
+        font-size: 34px;
+     }
+}
+
+
+@media screen and (max-width: 425px){
+    h1{
+        font-size: 44px;
+    }
+    p{
+        font-size: 28px;
+    }
+    .header-section{
+        width: 80%;
+        text-align: left;
+       padding-left: 10px;
+    }
+    .input-section{
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+    input{
+        padding: 10px;
+        width: 70%;
+    }
+    button{
+        padding: 10px;
+        width: 70%;
+    }
+    select{
+        padding: 10px;
+        width: 70%;
+    }
+    .output-section{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 375px){
+    .header-section{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 24px;
+    }
+    select{
+        font-size: 22px;
+    }
+    input{
+        font-size: 22px;
+    }
+    button{
+        font-size: 22px;
+    }
+}
+
